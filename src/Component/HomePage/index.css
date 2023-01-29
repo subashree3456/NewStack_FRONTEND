@@ -1,0 +1,38 @@
+.ContainerHomePage {
+  width: 100%;
+}
+.HeaderHomePage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerTitle {
+  font-size: 34px;
+}
+.headerButton {
+  font-size: 14px;
+  font-weight: 700;
+  width: fit-content;
+  background-color: #0074cc;
+  color: white;
+  margin-right: 30px;
+}
+.headerBox {
+  margin-top: 20px;
+}
+.headerBoxEnd {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.spancount {
+  background-color: #0074cc;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+}
+.headerspan {
+  font-size: 12px;
+  padding: 10px;
+  border: 1px solid black;
+}

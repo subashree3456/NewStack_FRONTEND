@@ -1,0 +1,13 @@
+.containerRight {
+  flex: 1;
+  max-width: fit-content;
+}
+
+.rightleft {
+  text-align: left;
+  margin-bottom: 15px;
+}
+.rightwight {
+  margin-bottom: 15px;
+  text-align: right;
+}

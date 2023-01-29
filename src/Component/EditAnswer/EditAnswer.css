@@ -1,0 +1,15 @@
+.Answer {
+  display: flex;
+  max-width: 500px;
+  flex-direction: column;
+  margin: 15px auto;
+}
+.Answer textarea {
+  padding: 20px;
+}
+.answerSubmit {
+  background-color: #0074cc;
+  color: white;
+  padding: 10px;
+  font-size: 12px;
+}

@@ -1,0 +1,13 @@
+.containerLeft {
+  flex: 1;
+  justify-content: flex-start;
+  max-width: fit-content;
+}
+.list-group {
+  background-color: #fdf7e2;
+}
+@media only screen and (max-width: 1020px) {
+  .containerLeft {
+    display: none;
+  }
+}

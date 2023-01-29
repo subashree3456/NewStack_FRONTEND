@@ -1,0 +1,71 @@
+.AskQuestionContainer {
+  padding: 20px;
+}
+.AskQuestionHeader {
+  max-width: 800px;
+  border: 2px solid black;
+  padding: 20px;
+  background-color: #ebf4fb;
+}
+.AskQuestionHeader ul {
+  margin-left: 40px;
+}
+.questionBody {
+  margin-top: 15px;
+  max-width: 800px;
+}
+.questionTitle {
+  background-color: aliceblue;
+  height: 100px;
+  padding: 20px;
+}
+.questionTitle h5 {
+  font-weight: 700;
+  font-size: 24px;
+}
+.questionTitle input {
+  padding: 0 20px;
+  width: 80%;
+  border: none;
+  outline: none;
+  height: 36px;
+}
+.questionDesc {
+  margin-top: 20px;
+  background-color: aliceblue;
+  height: 100px;
+  padding: 20px;
+}
+.questionDesc h5 {
+  font-weight: 700;
+  font-size: 24px;
+}
+.questionDesc input {
+  padding: 0 20px;
+  border: none;
+  outline: none;
+  width: 80%;
+  height: 36px;
+}
+.tags {
+  margin-top: 20px;
+  background-color: aliceblue;
+  height: 100px;
+  padding: 20px;
+}
+.tags h5 {
+  font-weight: 700;
+  font-size: 24px;
+}
+.tags input {
+  padding: 0 20px;
+  border: none;
+  outline: none;
+  width: 80%;
+  height: 36px;
+}
+.AskQuestionbtn {
+  margin-top: 20px;
+  background-color: #0074cc;
+  color: white;
+}

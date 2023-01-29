@@ -1,0 +1,34 @@
+.QuestionContainer {
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+}
+.containerQuestion {
+  margin-top: 20px;
+  display: flex;
+  height: 150px;
+  background-color: #fbf3d5;
+}
+.viewVote {
+  width: fit-content;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.QuestCon {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.questionHeader {
+  padding: 18px;
+  font-weight: 800;
+  font-size: 28px;
+}
+.questionHeader:hover {
+  color: #0074cc;
+}
+.userDetail {
+  text-align: end;
+}
