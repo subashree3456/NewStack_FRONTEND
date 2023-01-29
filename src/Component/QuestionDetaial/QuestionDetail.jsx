@@ -43,6 +43,8 @@ const QuestionDetail = () => {
     if (answer !== "") {
       try {
         const res = await publicRequest.post(`/answerpost`, data);
+        setanswer("");
+        navigate("/");
       } catch (error) {
         console.log(error);
       }
