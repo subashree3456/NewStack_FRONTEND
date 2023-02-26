@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { useEffect } from "react";
+import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { publicRequest } from "../../requestMethods";
 import "./index.css";
@@ -20,9 +21,13 @@ const Questions = () => {
     }
     getQuestion();
   }, []);
-
+  const user = useSelector((state) => state.user.currentUser);
   function handleQuestionDetails(e) {
-    navigate(`questionDetail/${e}`);
+    if (user !== null) {
+      navigate(`questionDetail/${e}`);
+    } else {
+      alert("login Pleace");
+    }
   }
   return (
     <div className="QuestionContainer">
