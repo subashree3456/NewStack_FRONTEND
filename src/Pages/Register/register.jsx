@@ -19,9 +19,10 @@ const Register = () => {
   const handleSubmit = () => {
     if (password === conformPass) {
       async function registeruser() {
+        console.log("login....");
         try {
           const res = await publicRequest.post("/signup", data);
-
+          console.log("logegged in....");
           navigate("/login");
         } catch (error) {
           console.log(error);
